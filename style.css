@@ -2,26 +2,30 @@ html, body{
 	width: 100%;
 	height: 100%;
 	margin: 0px;
+	background-color: #252525;
+
 }
 
 
 .container{
+	margin-top: 20px;
 	width: 100%;
-	height: 100%;
+	height: 70%;
 	display: flex;
     display: -moz-box;
     display: -ms-flexbox;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: #252525;
     flex-flow: row wrap;
 
 }
 
 .spot{
-	background-color: green;
+	background-color: #252525;
 	width: 100%;
-	height: 200px;
+	height: 100px;
+	margin-bottom:100px;
 	display: flex;
     display: -moz-box;
     display: -ms-flexbox;
@@ -34,10 +38,43 @@ html, body{
 .frame img{
 	width: 500px;
 	height:auto;
+	border-radius: 10px;
 }
 
 .map{
 	background-color: blue;
 	width: 100%;
+	height: 500px;
+}
+
+.home{
+	background-color: red;
+	width: 100%;
 	height: 300px;
 }
+
+ #map {
+        height: 100%;
+      }
+
+
+/*@media screen and (max-width: 992px) {
+}*/
+
+
+@media screen and (max-width: 600px) {
+ .frame img{
+	width: 300px;
+	}
+
+	.spot2{
+	width: 300px;
+	}
+
+	.container{
+		margin-top: 50px;
+		height: 340px;
+	}
+
+}
+
