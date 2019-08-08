@@ -16,8 +16,16 @@ html, body{
     display: -ms-flexbox;
     align-items: center;
     justify-content: center;
-    background-color: #252525;
+    /*background-color: #252525;*/
     flex-flow: row wrap;
+
+}
+
+.container2{
+	background-color: blue;
+	width: 90%;
+	height: 600px;
+	border-radius: 10px;
 
 }
 
@@ -32,6 +40,7 @@ html, body{
     align-items: center;
     flex-flow: row wrap;
     justify-content: center;
+
 }
 
 
@@ -52,6 +61,7 @@ html, body{
 	width: 100%;
 	height: 500px;
 	margin-bottom: 50px;
+	border-radius: 20px;
 }
 
 #map{
