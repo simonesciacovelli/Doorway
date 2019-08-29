@@ -6,6 +6,14 @@ html, body{
 
 }
 
+textarea:focus, input:focus{
+    outline: none;
+}
+
+*:focus {
+    outline: none;
+}
+
 #container3{
 /*	position: absolute;
 	top: 0;
@@ -22,7 +30,7 @@ html, body{
 
 .plyr--audio .plyr__controls{
 	/*background: none !important;*/
-	background: green !important;
+	/*background: green !important;*/
 
 	/*opacity: 20% !important;*/
 	/*width: 100% !important;*/
@@ -134,7 +142,7 @@ a{
 
 .player {
 	border-radius: 0px !important;
-	background-color: green !important;
+	/*background-color: green !important;*/
 }
 
 /*@media screen and (max-width: 992px) {
