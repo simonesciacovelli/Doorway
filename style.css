@@ -121,14 +121,37 @@ textarea:focus, input:focus{
 }
 
 .home{
+	font-family: 'Rubik', sans-serif;
 	background-color: #252525;
 	width: 100%;
-	height: 300px;
+	height: 195px;
 	text-align: center;
-	padding-top:50px;
-	font-weight: 200;
-	font-size: 50px;
+	padding-top:10px;
+	padding-bottom: 40px;
+	font-weight: 400;
+	font-size: 35px;
 	color:white;
+
+	display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.texthome{
+	text-align:center;
+	width: 160px;
+	background-color: none;
+	border-radius: 10px;
+	padding:10px;
+	transition: 0.4s;
+}
+
+.texthome:hover{
+	background-color: #3c4044;
+	width: 190px;
 }
 
 a{
@@ -137,12 +160,48 @@ a{
 
  #map {
         height: 100%;
+        transition: 0.6s;
       }
 
 .player {
 	border-radius: 0px !important;
 	/*background-color: green !important;*/
 }
+
+
+/*@media screen and (max-width: 1000px ) {
+	#map{
+	width: 60%;
+	border-radius: 10px;
+		}
+	}*/
+
+@media screen and (max-width: 900px ) {
+	.container2{
+	background-color: black;
+/*	border-style: solid;
+	border-color: white;
+  	border-width: 5px;*/
+	width: 90%;
+	bottom: 0px;
+	padding-top: 30px;
+	/*height: 600px;*/
+	border-radius: 10px;
+	display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    transition: 0.6s;
+	}
+
+	#map{
+	width: 90%;
+	border-radius: 10px;
+	}
+}
+
 
 /*@media screen and (max-width: 992px) {
 }*/
@@ -160,7 +219,7 @@ a{
 }
 
 .container2{
-	background-color: #3c4044;
+	background-color: black;
 /*	border-style: solid;
 	border-color: white;
   	border-width: 5px;*/

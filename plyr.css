@@ -183,10 +183,14 @@ a.plyr__control::after,a.plyr__control::before {
     display: none
 }
 
+/*----Color----*/
+
 .plyr--audio .plyr__control.plyr__tab-focus,.plyr--audio .plyr__control:hover,.plyr--audio .plyr__control[aria-expanded=true] {
-    background: #00b3ff;
+    background: #6277d1;
     color: #fff
 }
+
+/*----Color----*/
 
 .plyr--video .plyr__control.plyr__tab-focus,.plyr--video .plyr__control:hover,.plyr--video .plyr__control[aria-expanded=true] {
     background: #00b3ff;
