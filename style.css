@@ -147,6 +147,7 @@ textarea:focus, input:focus{
 	border-radius: 10px;
 	padding:10px;
 	transition: 0.4s;
+	color: white;
 }
 
 .texthome:hover{
