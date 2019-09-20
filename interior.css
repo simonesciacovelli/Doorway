@@ -80,6 +80,34 @@
   transition: 0.6s;
 }
 
+
+/*----screens----*/
+
+@media screen and (max-width: 600px) {
+
+.carousel-cell img {
+  display: block;
+  height: 320px;
+  border-radius: 10px;
+  transition: 0.6s;
+  }
+
+}
+
+@media screen and (max-width: 320px ) {
+
+.carousel-cell img {
+  display: block;
+  height: 220px;
+  border-radius: 10px;
+  transition: 0.6s;
+  }
+
+  .logocontainer{
+    height: 300px;
+  }
+}
+
 /*.carousel-cell:hover{
   border-style: solid;
   border-width: 5px;
