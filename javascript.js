@@ -17,7 +17,7 @@
 // });
 
 lottie.loadAnimation({
-  // container: element, // the dom element that will contain the animation
+  container: ".logocontainer", // the dom element that will contain the animation
   renderer: 'svg',
   loop: true,
   autoplay: true,
