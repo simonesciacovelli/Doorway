@@ -78,6 +78,7 @@
   height: 420px;
   border-radius: 10px;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 
@@ -138,6 +139,7 @@
   transition: 1s;
   overflow: hidden;
 }
+
 .overlay.open {
   opacity: 0.9;
   z-index: 5;
