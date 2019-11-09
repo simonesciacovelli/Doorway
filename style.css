@@ -2,10 +2,100 @@ html, body{
 	width: 100%;
 	height: 100%;
 	margin: 0px;
-	background-color: #252525;
+	background-color: #232323;
 	/*background-color: black;*/
 }
 
+.anim{
+width: 100%;
+height: 100%;
+	display: flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    align-items: center;
+    justify-content: center;
+    /*position: fixed;*/
+
+}
+
+.animgif{
+	width: 500px;
+	height: auto;
+}
+
+
+.description{
+	background-color: #161616;
+	color:white;
+	padding: 150px;
+	padding-top: 250px;
+	padding-bottom: 250px;
+	border-radius: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 200px;
+}
+
+
+
+/*gallery*/
+
+.container1 {
+  margin: 0 auto;
+  max-width: 1200px;
+  /*padding: 0 1rem;*/
+}
+
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell img {
+  display: block;
+  border-radius: 10px;
+  opacity: 5;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+
+.cell {
+  margin: 1rem;
+  transition: 0.5s;
+}
+
+/*.cell:hover {
+  margin: 2rem;
+  transition: 0.5s;
+}*/
+
+@media screen and (min-width: 600px) {
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
+
+/*gallery*/
 
 textarea:focus, input:focus{
     outline: none;
@@ -76,7 +166,7 @@ textarea:focus, input:focus{
 }
 .footer1{
 	height: 400px;
-	width: 900px;
+	width: 100%;
 }
 
 

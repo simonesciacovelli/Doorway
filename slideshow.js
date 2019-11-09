@@ -29,6 +29,8 @@ $('#toggle').click(function() {
 
 var $carousel = $('.main-carousel').flickity({
   lazyLoad: true,
+  asNavFor: '.carousel-main',
+  contain: true,
   imagesLoaded: true,
   percentPosition: false,
   freeScroll: false,
