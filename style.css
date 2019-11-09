@@ -74,6 +74,11 @@ textarea:focus, input:focus{
 	/*width: 90%;*/
 	background-color: black;
 }
+.footer1{
+	height: 400px;
+	width: 900px;
+}
+
 
 .spot{
 	background-color: #252525;
@@ -360,10 +365,4 @@ a{
 .carousel-cell img {
   display: block;
   height: 100%;
-}
-
-.footer1{
-	height: 400px;
-	width: 100%;
-	background-color: green;
 }
