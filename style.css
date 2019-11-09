@@ -361,3 +361,9 @@ a{
   display: block;
   height: 100%;
 }
+
+.footer1{
+	height: 400px;
+	width: 100%;
+	background-color: green;
+}
